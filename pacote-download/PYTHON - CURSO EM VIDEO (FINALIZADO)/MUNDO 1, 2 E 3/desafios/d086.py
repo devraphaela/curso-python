@@ -1,0 +1,35 @@
+# DESAFIO 086 - Crie um programa que gere uma matriz de dimensão 3x3 e preencha com valores lidos pelo teclado.
+
+# No final, mostre a matriz na tela, com a formatação correta.
+
+
+
+
+# matriz = list()
+
+# for c in range (0,9):
+#     matriz.append(int(input('Digite um valor: ')))
+
+
+# matriz.sort()
+# print(f'[', matriz[0], ']', end='')
+# print(f'[', matriz[1], ']', end='')
+# print(f'[', matriz[2], ']')
+# print(f'[', matriz[3], ']', end='')
+# print(f'[', matriz[4], ']', end='')
+# print(f'[', matriz[5], ']')
+# print(f'[', matriz[6], ']', end='')
+# print(f'[', matriz[7], ']', end='')
+# print(f'[', matriz[8], ']')
+
+
+matriz = [[0,0,0], [0,0,0],[0,0,0]]
+for l in range(0,3):
+    for c in range(0,3):
+        matriz[l][c] = int(input(f'Digite um valor para [{l} e {c}]: '))
+for l in range(0,3):
+    for c in range(0,3):
+        print(f'[{matriz[l][c]}]', end='')
+    print()
+
+#corrigido

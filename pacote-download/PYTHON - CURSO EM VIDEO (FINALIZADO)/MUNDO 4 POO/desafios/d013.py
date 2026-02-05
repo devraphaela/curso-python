@@ -1,0 +1,8 @@
+# DESAFIO 013 - Todo objeto tem uma lista de atividades que podem ser feitas com ele ou que ele pode desempenhar sozinho, que são:
+
+# A- Atributos
+# B- Métodos
+# C- Classes
+# D- Instâncias
+
+# R: B
