@@ -13,9 +13,9 @@ class Caneta:
             self.cor_rich = 'red'
         elif cor == 'verde':
             self.cor_rich = 'green'
-        elif cor == 'amarela':
+        elif cor == 'amarela' or cor == 'amarelo':
             self.cor_rich = 'yellow'
-        elif cor == 'preta':
+        elif cor == 'preta'or cor == 'preto':
             self.cor_rich = 'black'
         else:
             self.cor_rich = 'white'
