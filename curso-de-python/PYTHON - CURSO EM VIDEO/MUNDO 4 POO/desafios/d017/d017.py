@@ -1,3 +1,5 @@
+# DESAFIO 017 - Crie a classe Produto, onde podemos cadastrar nome e o preço. Crie também um método que mostre uma etiqueta de preço do produto.
+
 from rich import print
 from rich.panel import Panel
 
@@ -36,7 +38,7 @@ class Produto:
 
 
 p1 = Produto('Iphone 17 Pro Max', 25000.85)
-p2 = Produto('Notebook Gamer', 8000)
+p2 = Produto('Mouse', 120)
 
 p1.etiqueta()
 p2.etiqueta()
